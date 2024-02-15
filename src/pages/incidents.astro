@@ -1,9 +1,7 @@
 
 
 ---
-import Layout from '../layouts/Layout.astro';
 import CustomCard from '../components/CustomCardReact.jsx';
-import { incidentsMock } from '../components/mocks/incidentsMock.js';
 import { getIncidents } from '../services/incidents.js';
 
 const incidents = await getIncidents();
